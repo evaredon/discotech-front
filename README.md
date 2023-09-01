@@ -44,7 +44,7 @@ npm run dev
 You need to use your `LASTNAME` and `FIRSTNAME` to create your base url in `.env`
 
 ```bash
-VITE_API_BASE_URL=http://[firstname]-[lastname]-server.eddi.cloud/projet-disc-otech-back/Back/public/api
+VITE_API_BASE_URL=[your_url]
 ```
 
 _Et voilà_, everything is ready ! Enjoy :)
