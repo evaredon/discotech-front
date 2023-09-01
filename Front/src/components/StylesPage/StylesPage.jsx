@@ -14,7 +14,7 @@ function StylesPage({ styles }) {
     return <Loading />;
   }
   return (
-    <>
+    <div className="StylesPage-Block">
       <div className="StylesPage-Return">
         <ReturnButton />
       </div>
@@ -34,7 +34,7 @@ function StylesPage({ styles }) {
           </Link>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 
