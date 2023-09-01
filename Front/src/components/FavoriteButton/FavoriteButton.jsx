@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-
 // == Import : npm
 import { useDispatch, useSelector } from 'react-redux';
 import { useState, useEffect } from 'react';
@@ -23,8 +21,6 @@ function FavoriteButton({ id }) {
   useEffect(() => {
     // Check if the album is in the user's favorites
     setIsFavorite(favorites.some((fav) => fav.album?.id === id)); // Using 'some' here
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [favorites, id]); // Depend only on 'favorites' and 'id'
 
   const handleFavoriteClick = (e) => {

@@ -1,6 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable no-alert */
-
 // = Import : npm
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';

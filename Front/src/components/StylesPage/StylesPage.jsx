@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 // == Import : npm
 import { Link } from 'react-router-dom';
 

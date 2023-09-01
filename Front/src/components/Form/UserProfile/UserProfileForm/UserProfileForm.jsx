@@ -102,7 +102,6 @@ function UserProfileForm() {
         setCurrentLastname(res.data.lastname);
         setCurrentFirstname(res.data.firstname);
       });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

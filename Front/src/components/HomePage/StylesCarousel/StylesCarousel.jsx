@@ -14,6 +14,7 @@ function StylesCarousel({ styles }) {
       <div className="Carousel-Styles">
         <img className="Carousel-Banner" src={Style} alt="Lofi Style Title" />
         <div className="Carousel">
+
           {/* Mapping loop to display all styles (clickable with Link of React Router) */}
           {styles.slice(0, 9).map((style) => (
             <Link to={`/styles/${style.name}`}>
@@ -23,14 +24,13 @@ function StylesCarousel({ styles }) {
                   style={{ backgroundImage: `url(${style.image})` }}
                 />
                 <h3 className="Carousel-StyleName"> {style.name} </h3>
-
               </div>
             </Link>
           ))}
           <Link to="styles/">
             <div className="Carousel-Container">
               <div className="Carousel-Cards">
-                <p className="Carousel-More">➤</p>
+                <p className="Carousel-More">➤ Voir plus </p>
               </div>
             </div>
           </Link>

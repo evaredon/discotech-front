@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-
 // == Import : local
 import Sahra from '../../assets/about_us/dino_sahra.png';
 import Eva from '../../assets/about_us/dino_eva.png';

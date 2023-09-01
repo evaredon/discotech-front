@@ -1,5 +1,3 @@
-/* eslint-disable consistent-return */
-/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-console */
 
 // == Import : npm
