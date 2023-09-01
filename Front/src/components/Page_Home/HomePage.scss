@@ -1,0 +1,48 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 5rem auto;
+
+  &-Header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px rgb(199, 75, 199);
+  }
+  &-Title {
+    margin: 0.5rem 0;
+    color: rgb(199, 75, 199);
+  }
+  &-More {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1rem;
+    &:hover {
+      color: orange;
+    }
+  }
+
+  &-Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 2rem auto;
+  }
+
+  &-Container{
+    margin: 0.5rem;
+    width: 45%;
+  }
+
+}
+
+@media screen and (min-width: 1025px) {
+  .HomePage {
+    &-Container {
+      width:15%
+    }
+    &-More {
+      font-size: 1rem;
+    }
+  }
+}

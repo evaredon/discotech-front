@@ -6,29 +6,29 @@ import Toast from 'react-bootstrap/Toast';
 import api from '../../api/api';
 
 // = Import : local
-import Login from '../Form/Login/Login';
-import SignUp from '../Form/SignUp/SignUp';
+import Login from '../Page_Forms/Login/Login';
+import SignUp from '../Page_Forms/SignUp/SignUp';
 import Footer from '../Footer/Footer';
-import LegalNotices from '../LegalNotices/LegalNotices';
-import TermsofService from '../TermsofService/TermsofService';
-import Favorites from '../Favorites/Favorites';
-import AlbumPage from '../AlbumPage/AlbumPage';
-import AboutUs from '../AboutUs/AboutUs';
-import UserProfile from '../Form/UserProfile/UserProfile';
-import HomePage from '../HomePage/HomePage';
-import StylesPage from '../StylesPage/StylesPage';
+import LegalNotices from '../Page_Annex/LegalNotices/LegalNotices';
+import TermsofService from '../Page_Annex/TermsofService/TermsofService';
+import Favorites from '../Page_Favorites/Favorites';
+import AlbumPage from '../Page_Album/AlbumPage';
+import AboutUs from '../Page_About/About';
+import UserProfile from '../Page_Forms/User/UserProfile';
+import HomePage from '../Page_Home/HomePage';
+import StylesPage from '../Page_Styles/StylesPage';
 import SearchResult from '../SearchBar/SearchResult/SearchResult';
-import BottomNavigation from '../BottomNavigation/BottomNavigation';
-import Page404 from '../Page404/Page404';
+import BottomNavigation from '../Navigation/BottomNavigation/BottomNavigation';
+import Page404 from '../Page_404/Page404';
 
 import { saveLoginSuccessful } from '../../actions/user';
 
 // == Import : style
 import './App.scss';
-import StylesResult from '../StylesPage/StylesResult/StylesResult';
+import StylesResult from '../Page_Styles/StylesResult/StylesResult';
 import LayoutWithHeader from '../../layout/LayoutWithHeader';
 import LayoutWithoutHeader from '../../layout/LayoutWithoutHeader';
-import Loading from '../Loading/Loading';
+import Loading from '../Navigation/Loading/Loading';
 import SearchBar from '../SearchBar/SearchBar';
 
 // == App Component

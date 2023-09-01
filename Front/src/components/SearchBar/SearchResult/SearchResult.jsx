@@ -3,12 +3,12 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 // == Import : local
-import AlbumCard from '../../HomePage/AlbumCard/AlbumCard';
+import AlbumCard from '../../Page_Home/AlbumCard/AlbumCard';
 import api from '../../../api/api';
 
 // == Import : style
 import './SearchResult.scss';
-import Loading from '../../Loading/Loading';
+import Loading from '../../Navigation/Loading/Loading';
 
 // == Component
 function SearchResult() {
