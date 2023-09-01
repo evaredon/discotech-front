@@ -23,7 +23,7 @@ git clone < git@github.com >:xxxxxxxxxx.git
 - Now place you inside the project folder
 
 ```bash
-cd projet-disc-otech-front/Front
+cd discotech-front/Front
 ```
 
 - Npm installation
