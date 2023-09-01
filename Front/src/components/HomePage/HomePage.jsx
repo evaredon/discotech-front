@@ -6,8 +6,6 @@ import StylesCarousel from './StylesCarousel/StylesCarousel';
 import AlbumCard from './AlbumCard/AlbumCard';
 
 // == Import : syle
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import './HomePage.scss';
 
 // == Compoentn

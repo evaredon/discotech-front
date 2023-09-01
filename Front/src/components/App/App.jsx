@@ -13,7 +13,7 @@ import LegalNotices from '../LegalNotices/LegalNotices';
 import TermsofService from '../TermsofService/TermsofService';
 import Favorites from '../Favorites/Favorites';
 import AlbumPage from '../AlbumPage/AlbumPage';
-import AboutUs from '../AboutUs/AboutUs';
+import AboutUs from '../About/About';
 import UserProfile from '../Form/UserProfile/UserProfile';
 import HomePage from '../HomePage/HomePage';
 import StylesPage from '../StylesPage/StylesPage';
