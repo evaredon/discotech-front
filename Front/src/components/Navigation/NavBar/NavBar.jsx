@@ -13,12 +13,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './NavBar.scss';
 
 // == Import : local
-import logo from '../../assets/Logo-round.png';
-import user from '../../assets/nav/user-icon.svg';
-import home from '../../assets/nav/home-icon.svg';
-import style from '../../assets/nav/style-icon.svg';
-import heart from '../../assets/nav/heart-icon.svg';
-import about from '../../assets/nav/about-icon.svg';
+import logo from '../../../assets/Logo-round.png';
+import user from '../../../assets/nav/user-icon.svg';
+import home from '../../../assets/nav/home-icon.svg';
+import style from '../../../assets/nav/style-icon.svg';
+import heart from '../../../assets/nav/heart-icon.svg';
+import about from '../../../assets/nav/about-icon.svg';
 
 // == Component
 function NavBar() {

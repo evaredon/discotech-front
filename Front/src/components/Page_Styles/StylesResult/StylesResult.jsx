@@ -4,8 +4,8 @@ import { Link, useParams } from 'react-router-dom';
 
 // == Import : local
 import api from '../../../api/api';
-import AlbumCard from '../../HomePage/AlbumCard/AlbumCard';
-import Loading from '../../Loading/Loading';
+import AlbumCard from '../../Page_Home/AlbumCard/AlbumCard';
+import Loading from '../../Navigation/Loading/Loading';
 
 // == Component
 function StylesResult() {

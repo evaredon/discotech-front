@@ -1,5 +1,5 @@
 // == Import : local
-import returnBtn from '../../assets/returnBtn.svg';
+import returnBtn from '../../../assets/returnBtn.svg';
 
 // == Import : style
 import './ReturnButton.scss';

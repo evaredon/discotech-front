@@ -1,5 +1,5 @@
 // == Imports : local
-import FavoriteButton from '../../FavoriteButton/FavoriteButton';
+import FavoriteButton from '../FavoriteButton/FavoriteButton';
 
 // == Import : style
 import './FavoriteCard.scss';

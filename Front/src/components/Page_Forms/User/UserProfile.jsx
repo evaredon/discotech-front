@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 // == Import : local
-import FavoriteCard from '../../Favorites/FavoriteCard/FavoriteCard';
-import UserProfileForm from './UserProfileForm/UserProfileForm';
+import FavoriteCard from '../../Page_Favorites/FavoriteCard/FavoriteCard';
+import UserProfileForm from './UserForm/UserProfileForm';
 import './UserProfile.scss';
 
 function UserProfile() {

@@ -7,7 +7,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import api from '../../api/api';
 import FavoriteCard from './FavoriteCard/FavoriteCard';
 import { setFavorites } from '../../actions/user';
-import Loading from '../Loading/Loading';
+import Loading from '../Navigation/Loading/Loading';
 
 // == Import : style
 import './Favorites.scss';

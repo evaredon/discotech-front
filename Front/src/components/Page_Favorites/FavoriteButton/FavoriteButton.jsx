@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // == Import local
-import api from '../../api/api';
-import { addFavorite, removeFavorite } from '../../actions/user';
+import api from '../../../api/api';
+import { addFavorite, removeFavorite } from '../../../actions/user';
 
 // == Import : style
 import './FavoriteButton.scss';

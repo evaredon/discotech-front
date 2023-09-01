@@ -5,8 +5,8 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 // == Import : local
-import FavoriteButton from '../FavoriteButton/FavoriteButton';
-import ReturnButton from '../ReturnButton/ReturnButton';
+import FavoriteButton from '../Page_Favorites/FavoriteButton/FavoriteButton';
+import ReturnButton from '../Navigation/ReturnButton/ReturnButton';
 import api from '../../api/api';
 
 // = Import : style

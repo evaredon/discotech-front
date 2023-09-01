@@ -2,8 +2,8 @@
 import { Link } from 'react-router-dom';
 
 // == Import : local
-import ReturnButton from '../ReturnButton/ReturnButton';
-import Loading from '../Loading/Loading';
+import ReturnButton from '../Navigation/ReturnButton/ReturnButton';
+import Loading from '../Navigation/Loading/Loading';
 
 // == Import : style
 import './StylesPage.scss';
